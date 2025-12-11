@@ -1,36 +1,150 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+AdCanva Studio
 
-## Getting Started
+AdCanva Studio is an AI-powered creative tool that helps users generate high-quality product advertisements within seconds. It provides background removal, prompt-based ad generation, and automated 4-layout social media creatives—making it a complete ad-creation solution for businesses and content creators.
 
-First, run the development server:
+🚀 Overview
 
-```bash
+AdCanva Studio allows users to upload a product image, remove its background instantly, provide a creative prompt, and generate attractive ad layouts automatically. Users can also input a product title and price to personalize the generated designs.
+
+🎯 Problem Statement
+
+Creating high-quality product ads usually requires design skills, time, and expensive tools. Many small businesses struggle to produce professional ads consistently.
+
+💡 Solution
+
+AdCanva Studio simplifies ad creation using AI:
+
+Upload any product image
+Remove background with one click
+Provide a creative prompt
+Automatically generate 4 ad creatives
+Add product title and price
+Download and use instantly
+This enables fast, professional, and accessible ad design for everyone.
+
+✨ Features
+
+🖼 AI Background Removal for product images
+
+✍️ Prompt-driven ad generation
+
+🎨 Auto-creation of 4 unique ad layouts
+
+💰 Input fields for product title & price
+
+📱 Social media-ready output
+
+🔥 User-friendly and clean UI
+
+⏱ Fast processing and minimal clicks
+
+🧰 Tech Stack
+
+Frontend:
+
+HTML, CSS, JavaScript
+
+React (if used – remove if not)
+
+TailwindCSS
+
+Backend:
+
+Node.js / Express (if used)
+
+API integrations for image editing & generation
+
+AI / Tools:
+
+Background removal API
+
+Generative image API (OpenAI / Stability / other)
+
+Storage / Hosting:
+
+GitHub
+
+Vercel / Netlify (if deployed)
+
+🏗️ Architecture / Workflow
+User Uploads Image
+        ↓
+Background Removal API
+        ↓
+User Gives Creative Prompt + Title + Price
+        ↓
+AI Image Generation
+        ↓
+4 Creative Ads Generated
+        ↓
+User Downloads / Shares on Social Media
+
+📥 Installation & Setup
+1. Clone the repository
+git clone https://github.com/Enicka/Adcanva.git
+
+2. Navigate to project folder
+cd my-next-project
+
+3. Install dependencies
+npm install
+
+4. Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧪 Usage Instructions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open the website.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Upload your product image.
 
-## Learn More
+Remove its background with one click.
 
-To learn more about Next.js, take a look at the following resources:
+Enter your prompt, product title, and price.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Click “Generate Creatives”.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Wait for AI to generate 4 ad layouts.
 
-## Deploy on Vercel
+Download and use them on social media.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🎬 Demo Video
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👉 Click here to watch the demo
+
+"C:\Users\enick\Videos\Screen Recordings\Adcanva video.mp4"
+
+📌 Challenges Faced
+
+Integrating smooth background removal
+
+Optimizing image quality after processing
+
+Maintaining fast response time for AI generation
+
+UI alignment & image placement issues
+
+🚀 Future Improvements
+
+Add more ad layout templates
+
+Provide color theme customization
+
+Add bulk product ad generation
+
+Add user login & history saving
+
+Advanced editing (text, stickers, shadows)
+
+🤝 Contributors
+
+Team Name: AIGen
+
+ENICKA K
+
+PRITHIVI RAJ S
+
+NAVAPOORNIMA S
+
+SUDEENDRA K
+
