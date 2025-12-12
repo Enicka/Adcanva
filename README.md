@@ -112,7 +112,7 @@ Download and use them on social media.
 
 👉 Click here to watch the demo
 
-"C:\Users\enick\Videos\Screen Recordings\Adcanva video.mp4"
+https://youtu.be/SnGuheCv5Eo
 
 📌 Challenges Faced
 
